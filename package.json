@@ -27,7 +27,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ngs/draft-js-markdown-shortcuts-plugin.git"
+    "url": "git+https://github.com/cardmaster/draft-js-markdown-shortcuts-plugin.git"
   },
   "keywords": [
     "draftjs",
@@ -38,9 +38,9 @@
   "author": "Atsushi Nagase",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ngs/draft-js-markdown-shortcuts-plugin/issues"
+    "url": "https://github.com/cardmaster/draft-js-markdown-shortcuts-plugin/issues"
   },
-  "homepage": "https://github.com/ngs/draft-js-markdown-shortcuts-plugin#readme",
+  "homepage": "https://github.com/cardmaster/draft-js-markdown-shortcuts-plugin#readme",
   "devDependencies": {
     "@babel/cli": "^7.10.1",
     "@babel/core": "^7.10.2",
@@ -109,7 +109,8 @@
     "react-dom": "^16.13.1"
   },
   "contributors": [
-    "Atsushi Nagase <a@ngs.io>"
+    "Atsushi Nagase <a@ngs.io>",
+    "cardmaster <leafjohn@gmail.com"
   ],
   "dependencies": {
     "decorate-component-with-props": "^1.1.0",
@@ -118,8 +119,7 @@
     "draft-js-prism-plugin": "^0.1.3",
     "immutable": "~3.8.2"
   },
-  "collective": {
-    "type": "opencollective",
-    "url": "https://opencollective.com/draft-js-markdown-shortcuts-plugin"
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   }
 }
