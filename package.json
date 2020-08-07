@@ -1,5 +1,5 @@
 {
-  "name": "cardmaster-draft-js-markdown-shortcuts-plugin",
+  "name": "@cardmaster/cm-draft-js-markdown-shortcuts-plugin",
   "version": "0.1.0",
   "description": "A DraftJS plugin for supporting Markdown syntax shortcuts (modified for image)",
   "main": "lib/index.js",
